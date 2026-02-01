@@ -1,7 +1,7 @@
 # DSA-C
 # DSA in C – Array Operations
 
-This repository contains basic array operations implemented in C.
+This repository contains basic data structure and algorithm logics implemented in C.
 
 ## Operations Implemented
 - Insert element
