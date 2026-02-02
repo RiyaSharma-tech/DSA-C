@@ -1,0 +1,40 @@
+#include<stdio.h>
+void main()
+{
+	int arr[10];
+	int l=sizeof(arr)/4;
+	int i,n,num,max=l-1,ub,lb=0,pos;
+	printf("Enter the number of elemnets in array: ");
+	scanf("%d",&n);
+	printf("Enter the elements in array: \n");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+	printf("Your original array is: \n");
+	for(i=0;i<n;i++)
+	{
+	    printf("%d\n",arr[i]);
+	}
+	int ele;
+	printf("Enter the element you want to search: ");
+	scanf("%d",&ele);
+	ub=n-1;
+	int count=-1;
+	for(i=0;i<n;i++)
+	{
+		if(arr[i]==ele)
+		{
+			count=i;
+		}
+	}
+	if(count==-1)
+	{
+		printf("Element not found!!");
+	}
+	else
+	{
+		printf("Element found at index: %d",count);
+		printf("\nPosition in array is: %d",count+1);
+	}
+}
