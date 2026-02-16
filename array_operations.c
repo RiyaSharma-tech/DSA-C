@@ -1,3 +1,6 @@
+//This is a menu driven program in C for performing various operations[basic] on array.
+//This program helps in clear understanding of while loop, switch statement and opeartions like add, delete,display ,search performed on array
+
 #include<stdio.h>
 int arr[10],n;
 void insert()
