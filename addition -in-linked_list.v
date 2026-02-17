@@ -1,3 +1,4 @@
+// Performing various addition operations in linked list
 #include<stdio.h>
 #include<stdlib.h>
 int n,total=10,avail=0;
